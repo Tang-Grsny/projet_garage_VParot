@@ -25,17 +25,14 @@
         array(
             'titre' => 'Service de vidange',
             'contenu' => 'Notre service de vidange assure un remplacement efficace de l\'huile de votre véhicule, ainsi que du filtre à huile.',
-            'image' => 'chemin/vers/image1.jpg'
         ),
         array(
             'titre' => 'Réparation de freins',
             'contenu' => 'Nous proposons des services de réparation et de remplacement de freins pour assurer la sécurité et la performance de votre véhicule.',
-            'image' => 'chemin/vers/image2.jpg'
         ),
         array(
             'titre' => 'Diagnostic électronique',
             'contenu' => 'Notre service de diagnostic électronique utilise des équipements modernes pour détecter et résoudre les problèmes électroniques de votre véhicule.',
-            'image' => 'chemin/vers/image3.jpg'
         )
     );
 
@@ -43,7 +40,6 @@
         ?>
         <div class="midContent ">
             <h2><?= $article['titre'] ?></h2>
-            <img src="<?= $article['image'] ?>" alt="<?= $article['titre'] ?>" width="200">
             <p><?= $article['contenu'] ?></p>
         </div>
         <?php
