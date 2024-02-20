@@ -23,7 +23,7 @@ Configurez la base de donnée :
 
 -Créez une nouvelle base de données MySQL
 
--Importez le fichier SQL fourni cela vas créer les tables projetSiteWebGarage.sql
+-Importez le fichier SQL fourni cela vas créer les tables [projetSiteWebGarage.sql](https://github.com/Tang-Grsny/projet_garage_VParot/blob/main/projetSiteWebGarage.sql)
 
 -Modifiez les variables $host, $dbname, $username et $password pour qu'elles soient senblabes à vos informations de connexion à la base de donné.
 
