@@ -39,9 +39,6 @@ try {
         echo "Carburant: " . $row['fuel_car'] . "<br>";
         echo "<img src='data:image/jpeg;base64," . base64_encode($row['image_data']) . "' alt='Image voiture' class='car-image'><br>";
         echo "<hr>";
-
-        // Maintenant, vous pouvez inclure ici la logique pour récupérer et afficher le chemin de l'image
-        // en utilisant une nouvelle requête SQL si nécessaire.
     }
 } catch (PDOException $e) {
     // En cas d'erreur de connexion
