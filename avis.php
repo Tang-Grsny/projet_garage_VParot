@@ -50,7 +50,7 @@ $comments = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         <label for="exampleFormControlInput2" class="form-label">Note (de 1 à 5)</label>
                         <input type="number" class="form-control" id="exampleFormControlInput2" name="rating" min="1" max="5">
                     </div>
-                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                    <button type="submit" class="btn btn-secondary btn-lg">Envoyer</button>
                 </form>
             </div>
             <div class="comments-section midContent">
