@@ -1,0 +1,165 @@
+body {
+    overflow-x: hidden;
+    background: linear-gradient(to bottom, #D0CDC8 , #ad9d6f);
+    margin: 0;
+    color: white; 
+}
+
+.flux {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mid {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.midContent{
+    padding: 20px;
+}
+.content-mid{
+    width: 100%;
+    padding: 20px;
+}
+.image-size{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 5%;
+}
+
+.pic_size{
+    height: 250px;
+    width: 250px;
+}
+
+.tailleimg {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.mid .midContent {
+    background-color: #333333;
+    margin: 2rem;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.hero {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    padding-bottom: 450px;
+    row-gap: 20px;
+}
+
+.hero__title {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    z-index: 2;
+    padding: 10px;
+}
+
+.hero__description {
+    color: white;
+    z-index: 2;
+    padding: 10px;
+}
+
+.d-flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #D0CDC8;
+    width: 100%;
+    align-items: center;
+}
+
+.carImgFond {
+
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-attachment:fixed;
+    background: url('./asstes/images/pexels-john-sullivan-92108.jpg') center/cover no-repeat; 
+    z-index: 1;
+
+}
+
+.center_element{
+    padding: 10px;
+    width: 45%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.background_neutre{
+    background-color:#333333;
+}
+
+.filter_car{
+    margin: -20px auto 0;
+    padding: 20px 0;
+    width: 100%;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.occasion_car{
+    display: block;
+}
+
+.fond_brun{
+    background-color: #333333;
+    margin: 2rem;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.car-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.footer-style {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.reparation {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.titre {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.commentaire {
+    font-size: 1.1em;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
