@@ -40,6 +40,18 @@ Configurez la base de donnée :
 
 -L'application web "Garage V. Parrot" devrait souvrire 
 
+** Création d'un administrateur pour le back-office **
+
+Accéder à la base de données :
+
+-Dans votre terminal SQL ou une interface de gestion de base de données comme phpMyAdmin.
+
+-Sélectionner la base de données dans laquelle vous avec souvegarder les données
+
+-Vous pouvez ensuite taper :INSERT INTO accountEmployer (firstname, lastmane, email, password, role, staut
+                           :VALUES('votre firstname', 'votre lastmane', 'votre email', 'un mot de passe', 'admin', 'active' )
+
+-Vous pourrez ainsi accédez au paramètre admin
 
 
 
