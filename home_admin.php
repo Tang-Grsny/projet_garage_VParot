@@ -29,15 +29,6 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
     <h2>Bienvenue sur la page d'accueil</h2>
     
     <?php if (isset($_SESSION['admin']) && $_SESSION['admin'] == true) { ?>
-
-    <nav>
-        <ul>
-            <li><a href="liste_worker">Gestion des utilisateurs</a></li>
-            <li><a href="#">Gestion des réparations</a></li>
-            <li><a href="#">Déconnexion</a></li>
-        </ul>
-    </nav>
-
     <h3>Création de compte</h3>
     <form method="post" action="add_employer_serve.php">
         <label for="nom">Nom :</label>

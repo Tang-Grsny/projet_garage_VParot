@@ -22,10 +22,10 @@ width= "60px"; />
           <a class="nav-link" href="avis.php">Avis</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.php">Contact</a>
+          <a class="nav-link" href="contact.php">Exemple de lien </a>
         </li>
       </ul>
-      <a href="session.php" class="btn btn-secondary btn-lg" >Connexion Pro</a>
+      <a href="session.php" class="btn btn-secondary btn-lg" >Exemple de bouton</a>
     </div>
   </div>
 </nav>

@@ -13,7 +13,7 @@
     
 </head>
 
-<body">
+<body class="footer-content">
 <div class="container">
     <?php
     // Connexion à la base de données
@@ -38,7 +38,7 @@
         }
         echo '</ul>';
         // Ajout de l'adresse, du numéro de téléphone et de l'email
-        echo '<address>';
+        echo '<address style="text-align: right;">';
         echo '15 Av. de la Garonnette, Toulouse<br>';
         echo 'Téléphone : 06.**.**.**.**<br>';
         echo 'Email : v.parrot@exemple.com';
